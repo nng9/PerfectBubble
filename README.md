@@ -4,16 +4,16 @@
 ![Intubation](https://user-images.githubusercontent.com/30084214/57289199-ecaaf200-7088-11e9-981d-ca7cde9932c4.png)
 
 # Week 1
-Software Implementation:
+Software Implementation: Interface piezo-resistor with MBed to light up an LED when pressed.
 
 # Week 2
-Software Implementation:
+Software Implementation: Interface with motor driver to be able to move it clockwise, counterclockwise, and stop.
 
 # Week 3
-Software Implementation:
+Software Implementation: Interface piezo-resistor with motor driver to rotate one direction when not pressed and one direction when pressed.
 
 # Week 4
-Software Implementation:
+Software Implementation: Interface MBed with LCD to display the pressure reading, based on this reading, rotate the motor driver (now attached ot the syringe pump) clockwise or counterclockwise to push the syringe in or out.
 
 
 ```markdown

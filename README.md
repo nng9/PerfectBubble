@@ -28,10 +28,12 @@ This week we refined the design for the syringe pump. There were some imperfecti
 
 # Week 4
 ### Software
-Software Implementation: Interface MBed with LCD to display the pressure reading, based on this reading, rotate the motor driver (now attached ot the syringe pump) clockwise or counterclockwise to push the syringe in or out.
+
+Interface MBed with LCD to display the pressure reading, based on this reading, rotate the motor driver (now attached ot the syringe pump) clockwise or counterclockwise to push the syringe in or out. We implemented a basic control algorithm to maintain pressure. Basically, when a button is pressed, the mBed takes the current reading of the pressure sensor. The system will then try to maintain that pressure. If the pressure drops below the set pressure, then it will trigger the syringe pump to push forward and inflate the syringe. If the pressure gets above the set pressure, then the syringe pump will pull backwards and deflate the cuff. 
+
 ### Hardware
 
-We worked on creating an a
+
 
 
 ```markdown

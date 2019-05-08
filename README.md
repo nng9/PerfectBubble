@@ -14,12 +14,15 @@
 
 ```markdown
 Baseline Goals:
-- Make a potatoe
-- TEST
+- Be able to measure pressure
+- Use a stepper motor controller by an MBed to inflate and deflate the balloon
+- Implement a control algorithm that responds to changes in pressure and inflates or deflates the cuff to maintain pressure
+- Build a good rig for testing
 
 Reach Goals:
-- 
--
+- Add a buzzer to the device that gives an alert to the physician when the pressure has fallen out of range
+- Have buttons that correspond to manually moving the syringe
+- Log data on pressure and send it to a computer via wifi for analysis.
 
 ```
 

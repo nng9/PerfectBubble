@@ -4,7 +4,8 @@
 ![Intubation](https://user-images.githubusercontent.com/30084214/57289199-ecaaf200-7088-11e9-981d-ca7cde9932c4.png)
 
 # Week 1
-Software Implementation: Interface piezo-resistor with MBed to light up an LED when pressed.
+Software: Interface piezo-resistor with MBed to light up an LED when pressed.
+Hardware: Connect the stepper motor to the mBed. We ran into problems getting the stepper motor to move. We probed everywhere and were puzzed as to why the motor driver was not providing the correct current. We probed the mBed and saw that it was correctly providing input commands to the motor driver. After a couple of days, we found out that the motor driver was faulty. We switched it out and were able to get the stepper motor to move. We played around with the software and determined the number of steps that were required in order to turn the motor one whole revolution. 
 
 # Week 2
 Software Implementation: Interface with motor driver to be able to move it clockwise, counterclockwise, and stop.

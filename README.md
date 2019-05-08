@@ -17,15 +17,15 @@
 
 # Week 3
 ### Software
-- Interface piezo-resistor with motor driver to rotate one direction when not pressed and one direction when pressed. At the end of this week we got our pressure sensor. This is the pressure sensor that we plan on placing into the syringe so that it can constantly measure the pressure within the cuff. 
+- Interface piezo-resistor with motor driver to rotate one direction when not pressed and one direction when pressed. At the end of this week we got our pressure sensor. This is the pressure sensor that we plan on placing into the syringe so that it can constantly measure the pressure within the cuff. The sensor 
 ### Hardware
 - This week we refined the design for the syringe pump. There were some imperfections with the 3D printed models. The holes were too small and was causing excess friction. We sanded down these holes and greased the rod with WD40. Moreover, some of our parts did not properly fit the syringe, meaning that the part of the syringe pump that is supposed to pull the plunger back was too large and did not work. So after the baseline demo, we decided to remake this part. Rather than 3D print them, we decided to use laser cutting because it is faster and more preceise. 
 
 # Week 4
 ### Software
-- Interface piezo-resistor with MBed to light up an LED when pressed.
-### Hardware
 Software Implementation: Interface MBed with LCD to display the pressure reading, based on this reading, rotate the motor driver (now attached ot the syringe pump) clockwise or counterclockwise to push the syringe in or out.
+### Hardware
+
 
 
 ```markdown

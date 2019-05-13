@@ -4,8 +4,7 @@
 ![Intubation](https://user-images.githubusercontent.com/30084214/57289199-ecaaf200-7088-11e9-981d-ca7cde9932c4.png)
 
 # Week 1
-![IMG_0003](https://user-images.githubusercontent.com/30084214/57591916-de822900-7501-11e9-8022-302d715657c2.jpg)
-![IMG_0002](https://user-images.githubusercontent.com/30084214/57591924-ea6deb00-7501-11e9-884a-d1bda3b9940f.jpg)
+![IMG_0001](https://user-images.githubusercontent.com/30084214/57591936-f48fe980-7501-11e9-9d92-c36fab2bacb2.jpg)
 ### Software
 
 Interface piezo-resistor with MBed to light up an LED when pressed.
@@ -40,6 +39,7 @@ This week we refined the design for the syringe pump. There were some imperfecti
 Interface MBed with LCD to display the pressure reading, based on this reading, rotate the motor driver (now attached ot the syringe pump) clockwise or counterclockwise to push the syringe in or out. We implemented a basic control algorithm to maintain pressure. Basically, when a button is pressed, the mBed takes the current reading of the pressure sensor. The system will then try to maintain that pressure. If the pressure drops below the set pressure, then it will trigger the syringe pump to push forward and inflate the syringe. If the pressure gets above the set pressure, then the syringe pump will pull backwards and deflate the cuff. 
 
 ![IMG_0005](https://user-images.githubusercontent.com/30084214/57591858-9236e900-7501-11e9-9a6c-449990789ffb.jpg)
+![IMG_0003](https://user-images.githubusercontent.com/30084214/57591916-de822900-7501-11e9-8022-302d715657c2.jpg)
 
 ### Hardware
 
@@ -61,5 +61,5 @@ Reach Goals:
 ```
 
 ![IMG_0011](https://user-images.githubusercontent.com/30084214/57591755-f0170100-7500-11e9-8189-c174a01c7db9.jpg)
-![IMG_0001](https://user-images.githubusercontent.com/30084214/57591936-f48fe980-7501-11e9-9d92-c36fab2bacb2.jpg)
+
 

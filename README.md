@@ -3,6 +3,8 @@
 
 ![Intubation](https://user-images.githubusercontent.com/30084214/57289199-ecaaf200-7088-11e9-981d-ca7cde9932c4.png)
 
+![IMG_0011](https://user-images.githubusercontent.com/30084214/57591755-f0170100-7500-11e9-8189-c174a01c7db9.jpg)
+
 # Week 1
 ### Software
 

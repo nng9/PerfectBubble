@@ -43,6 +43,7 @@ Interface MBed with LCD to display the pressure reading, based on this reading, 
 
 ### Hardware
 
+We tried to make our syringe airtight by filling in holes with epoxy, but failed. For some reason, we were unable to create an airtight seal and the syringe we used never worked properly again. Therefore, we abandoned the idea of embedding the pressure sensor within the syringe. If we had more time, we would have built a PCB board that was smaller and would have fit within the syringe. At the moment, our makeshift method of embedding the sensor within the syringe was not working. 
 # Goals
 
 
